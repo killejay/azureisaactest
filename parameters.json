@@ -1,0 +1,42 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "location": {
+            "value": "eastus2"
+        },
+        "vmName": {
+            "value": "testcisco"
+        },
+        "merakiAuthToken": {
+            "value": "Merakitokentttt"
+        },
+        "virtualNetworkName": {
+            "value": "vmx-vnet"
+        },
+        "virtualNetworkNewOrExisting": {
+            "value": "new"
+        },
+        "virtualNetworkAddressPrefix": {
+            "value": "10.3.0.0/16"
+        },
+        "virtualNetworkResourceGroup": {
+            "value": "ciscoisaacli"
+        },
+        "virtualMachineSize": {
+            "value": "Standard_D2_v2"
+        },
+        "subnetName": {
+            "value": "vmx-subnet"
+        },
+        "subnetAddressPrefix": {
+            "value": "10.3.0.0/24"
+        },
+        "baseUrl": {
+            "value": ""
+        },
+        "applicationResourceName": {
+            "value": "ciscotestmeraki"
+        }
+    }
+}
